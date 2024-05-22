@@ -1,0 +1,5 @@
+Test allItems == null
+MTest name == null, discount > 0, sum > 300, sum >= payment, barcode[0]=='0'
+*Testing if barcode has invalid character
+)Testing sum < payment and discount != 0
+Testing barcode == null

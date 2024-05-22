@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SILab2Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-21T19:06:11" hostname="DESKTOP-3VD8IN9" time="0.024">
+<testsuite name="SILab2Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-21T19:34:38" hostname="DESKTOP-3VD8IN9" time="0.033">
   <properties/>
-  <testcase name="testMultipleCondition()" classname="SILab2Test" time="0.024"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="testEveryBranch()" classname="SILab2Test" time="0.033"/>
+  <system-out><![CDATA[Test allItems == null
+Test name == null, discount > 0, sum > 300, sum >= payment, barcode[0]=='0'
+Testing if barcode has invalid character
+Testing sum < payment and discount != 0
+Testing barcode == null
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
